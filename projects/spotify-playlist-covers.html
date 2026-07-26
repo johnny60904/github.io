@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="darkreader-lock">
+    <meta charset="utf-8">
+    <title>Spotify Playlist Artworks | Projects | LanDX</title>
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="icon" href="../assets/icons/portfolio.png" type="image/png">
+    <style>
+        /* 畫廊專用微調：讓圖片呈現 Spotify 封面標誌性的圓角與方塊陰影 */
+        .gallery-grid {
+            display: grid;
+            gap: 32px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            margin-top: 32px;
+        }
+        .art-card {
+            background: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .art-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(56, 139, 253, 0.2); /* 淡淡的微軟藍發光特效 */
+        }
+        .art-card img {
+            width: 100%;
+            aspect-ratio: 1 / 1; /* 強制保持完美的正方形歌單封面比例 */
+            object-fit: cover;
+            border-radius: 8px;
+            background: #000;
+        }
+        .art-card h3 {
+            margin: 16px 0 8px 0;
+            font-size: 1.2rem;
+            color: var(--text-color);
+        }
+        .art-card p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: var(--sub-text-color);
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="project">Spotify Playlist Artworks</h1>
+        <p class="subtitle">AI-Assisted Contextual Designs & Digital Post-Processing</p>
+        <p class="description">A collection of playlist cover designs leveraging advanced prompt syntax architectures for semantic image synthesis, refined through Photopea for color telemetry alignment, structural asset masking, and typographic composition.</p>
+    </header>
+
+    <main class="hero-container">
+        <div class="feat-container">
+            <h2>Design Flow & Philosophy</h2>
+            <ul>
+                <li><strong>Contextual Prompt Engineering:</strong> Anchoring precise mood guidelines, color palettes, and stylistic eras directly inside generative models to maximize prompt fidelity and output consistency.</li>
+                <li><strong>Layer Masking & Post-Processing:</strong> Utilizing Photopea to execute defensive layer masking, asset composition, and localized noise reduction to refine the raw digital synthesis.</li>
+                <li><strong>Typography Integration:</strong> Standardizing layout structural constraints to position non-obtrusive, high-end branding and contextual text onto the final album canvas.</li>
+            </ul>
+        </div>
+
+        <h2>The Gallery</h2>
+        <div class="gallery-grid">
+            <!-- 封面卡片 1：未來你可以把圖片放進 images/projects/cover1.png -->
+            <article class="art-card">
+                <img src="../images/projects/cover1.png" alt="Contextual Artwork 1" onerror="this.src='https://placehold.co'">
+                <h3>Cybernetic Solitude</h3>
+                <p>Prompt-driven cyberpunk dystopia, corrected via Photopea luminance matching and cyan telemetry adjustment.</p>
+            </article>
+
+            <!-- 封面卡片 2 -->
+            <article class="art-card">
+                <img src="../images/projects/cover2.png" alt="Contextual Artwork 2" onerror="this.src='https://placehold.co'">
+                <h3>Neon Nostalgia</h3>
+                <p>Retro synthwave aesthetic, fine-tuned with high-precision asset overlays and custom typography layouts.</p>
+            </article>
+
+            <!-- 封面卡片 3 -->
+            <article class="art-card">
+                <img src="../images/projects/cover3.png" alt="Contextual Artwork 3" onerror="this.src='https://placehold.co'">
+                <h3>Minimalist Resonance</h3>
+                <p>Pure geometric abstraction balancing open-canvas breathing room with custom-masked structural shadows.</p>
+            </article>
+        </div>
+        
+        <div class="git-container" style="margin-top: 64px;">
+            <a href="../projects.html">← Back to Projects</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Zi-Cheng Huang</p>
+        </div>
+    </footer>
+</body>
+</html>

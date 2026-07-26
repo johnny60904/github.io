@@ -1,0 +1,123 @@
+:root {
+    --text-color: rgb(31, 35, 40);
+    --sub-text-color: rgb(11, 15, 20);
+    --background-color: rgb(255, 255, 255);
+    --card-background: rgb(235, 235, 235);
+    --border-color: rgb(121, 121, 121);
+    --link-color: rgb(9, 105, 218);
+    --hover-link-color: rgb(46, 164, 79);
+    --project-color: rgb(9, 105, 218);
+    --card-title-color: rgb(31, 35, 40);
+    --max-width: 900px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: rgb(240, 246, 252);        /* #F0F6FC */
+        --sub-text-color: rgb(139, 148, 158);    /* #8B949E */
+        --background-color: rgb(13, 17, 23);     /* #0D1117 */
+        --card-background: rgb(22, 27, 34);      /* #161B22 */
+        --border-color: rgb(48, 54, 61);         /* #30363D */
+        --link-color: rgb(88, 166, 255);         /* #58A6FF : 亮科技藍 */
+        --hover-link-color: rgb(255, 255, 255);
+        --project-color: rgb(240, 246, 252);     /* 標題純白 */
+        --card-title-color: rgb(88, 166, 255);   /* #58A6FF : 科技藍小標題 */
+    }
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.hero-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 12px 32px;
+}
+
+.hero {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 48px 32px 24px 32px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--project-color);
+}
+
+.subtitle {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: var(--sub-text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.description {
+    margin-top: 24px;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.arch-container, .feat-container {
+    margin-top: 40px;
+}
+
+.architecture, .features, .github {
+    color: var(--card-title-color);
+    font-size: 1.6rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.git-container {
+    margin: 48px 0;
+    padding: 24px;
+    background: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.git-container a {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.git-container a:hover {
+    color: var(--hover-link-color);
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 80px;
+    border-top: 1px solid var(--border-color);
+    padding: 24px 0;
+}
+
+footer .container p {
+    text-align: center;
+    color: var(--sub-text-color);
+    margin: 0;
+    font-size: 0.9rem;
+}
