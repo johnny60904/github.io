@@ -1,0 +1,17 @@
+[
+    {
+        "img": "cover1.png",
+        "title": "Cybernetic Solitude",
+        "desc": "Prompt-driven cyberpunk abstraction, calibrated with Photopea luminance matching and precise cyan telemetry adjustment."
+    },
+    {
+        "img": "cover2.png",
+        "title": "Neon Nostalgia",
+        "desc": "Retro synthwave aesthetic, engineered with layer-masked asset configuration and custom typography layouts."
+    },
+    {
+        "img": "cover3.png",
+        "title": "Minimalist Resonance",
+        "desc": "Geometric concrete form balancing structural gradient depth with open-canvas padding restrictions."
+    }
+]

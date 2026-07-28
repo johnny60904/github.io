@@ -4,14 +4,14 @@
     <meta name="darkreader-lock">
     <meta charset="utf-8">
     <title>Spotify Playlist Artworks | Projects | LanDX</title>
+    <link rel="stylesheet" href="../css/site.css">
     <link rel="stylesheet" href="../css/projects.css">
     <link rel="icon" href="../assets/icons/portfolio.png" type="image/png">
     <style>
-        /* 畫廊專用微調：讓圖片呈現 Spotify 封面標誌性的圓角與方塊陰影 */
         .gallery-grid {
             display: grid;
             gap: 32px;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             margin-top: 32px;
         }
         .art-card {
@@ -19,29 +19,38 @@
             border: 1px solid var(--border-color);
             border-radius: 12px;
             padding: 16px;
-            text-align: center;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-align: left;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
         .art-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(56, 139, 253, 0.2); /* 淡淡的微軟藍發光特效 */
+            border-color: var(--link-color);
+            box-shadow: 0 8px 24px rgba(56, 139, 253, 0.15);
         }
         .art-card img {
             width: 100%;
-            aspect-ratio: 1 / 1; /* 強制保持完美的正方形歌單封面比例 */
+            aspect-ratio: 1 / 1;
             object-fit: cover;
             border-radius: 8px;
-            background: #000;
+            background: rgb(13, 17, 23);
         }
         .art-card h3 {
             margin: 16px 0 8px 0;
             font-size: 1.2rem;
             color: var(--text-color);
+            font-weight: 600;
         }
         .art-card p {
             margin: 0;
             font-size: 0.9rem;
+            line-height: 1.5;
             color: var(--sub-text-color);
+        }
+        .loader-text {
+            color: var(--sub-text-color);
+            font-size: 1.1rem;
+            text-align: center;
+            margin-top: 48px;
         }
     </style>
 </head>
@@ -49,41 +58,30 @@
     <header class="hero">
         <h1 class="project">Spotify Playlist Artworks</h1>
         <p class="subtitle">AI-Assisted Contextual Designs & Digital Post-Processing</p>
-        <p class="description">A collection of playlist cover designs leveraging advanced prompt syntax architectures for semantic image synthesis, refined through Photopea for color telemetry alignment, structural asset masking, and typographic composition.</p>
+        <p class="description">A curated gallery showcasing artificial intelligence prompt engineering synchronized with Photopea layered typography and color telemetry alignment to output high-fidelity playlist canvas systems.</p>
     </header>
 
     <main class="hero-container">
         <div class="feat-container">
-            <h2>Design Flow & Philosophy</h2>
+            <h2>Design Workflow Invariants</h2>
             <ul>
-                <li><strong>Contextual Prompt Engineering:</strong> Anchoring precise mood guidelines, color palettes, and stylistic eras directly inside generative models to maximize prompt fidelity and output consistency.</li>
-                <li><strong>Layer Masking & Post-Processing:</strong> Utilizing Photopea to execute defensive layer masking, asset composition, and localized noise reduction to refine the raw digital synthesis.</li>
-                <li><strong>Typography Integration:</strong> Standardizing layout structural constraints to position non-obtrusive, high-end branding and contextual text onto the final album canvas.</li>
+                <li><strong>Contextual Prompt Engineering:</strong> Structuring multi-layered syntactic guidelines to secure precise artistic moods, variable shading vectors, and strict composition fidelity.</li>
+                <li><strong>Layer Masking & Post-Processing:</strong> Utilizing Photopea to execute defensive layer masks, localized noise reduction, and custom telemetry correction.</li>
+                <li><strong>Typography Integration:</strong> Standardizing rigid layout boundaries to fuse seamless typography and minimalist identifier text into the final album matrix.</li>
             </ul>
         </div>
 
         <h2>The Gallery</h2>
-        <div class="gallery-grid">
-            <!-- 封面卡片 1：未來你可以把圖片放進 images/projects/cover1.png -->
-            <article class="art-card">
-                <img src="../images/projects/cover1.png" alt="Contextual Artwork 1" onerror="this.src='https://placehold.co'">
-                <h3>Cybernetic Solitude</h3>
-                <p>Prompt-driven cyberpunk dystopia, corrected via Photopea luminance matching and cyan telemetry adjustment.</p>
-            </article>
-
-            <!-- 封面卡片 2 -->
-            <article class="art-card">
-                <img src="../images/projects/cover2.png" alt="Contextual Artwork 2" onerror="this.src='https://placehold.co'">
-                <h3>Neon Nostalgia</h3>
-                <p>Retro synthwave aesthetic, fine-tuned with high-precision asset overlays and custom typography layouts.</p>
-            </article>
-
-            <!-- 封面卡片 3 -->
-            <article class="art-card">
-                <img src="../images/projects/cover3.png" alt="Contextual Artwork 3" onerror="this.src='https://placehold.co'">
-                <h3>Minimalist Resonance</h3>
-                <p>Pure geometric abstraction balancing open-canvas breathing room with custom-masked structural shadows.</p>
-            </article>
+        <div id="gallery-root" class="gallery-grid">
+            <div class="loader-text">Compiling frameworkless asset data stream...</div>
+        </div>
+        
+        <div class="git-container" style="margin-top: 48px; padding: 20px; background: var(--card-background); border: 1px solid var(--border-color); border-radius: 8px;">
+            <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--sub-text-color);">
+                <strong style="color: var(--text-color); display: block; margin-bottom: 4px;">⚖️ Digital Asset License & Compliance Notice:</strong>
+                The creative visuals rendered within this gallery are strictly protected under the <a href="https://creativecommons.org" target="_blank" style="color: var(--link-color); text-decoration: none; font-weight: 600;">CC BY-NC-ND 4.0</a> license. 
+                Individual artwork assets are strictly limited to personal exhibition. Any unauthorized reproduction, commercial distribution, public performance streaming configuration, or localized derivation without dynamic programmatic attribution to <strong>Zi-Cheng Huang (LanDX)</strong> is programmatically prohibited.
+            </p>
         </div>
         
         <div class="git-container" style="margin-top: 64px;">
@@ -93,8 +91,10 @@
 
     <footer>
         <div class="container">
-            <p>© 2026 Zi-Cheng Huang</p>
+            <p>© 2026 Zi-Cheng Huang. All rights reserved.</p>
         </div>
     </footer>
+    
+    <script type="Module" src="../js/spotify-gallery-render.js"></script>
 </body>
 </html>
