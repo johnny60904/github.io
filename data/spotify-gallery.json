@@ -1,17 +1,97 @@
 [
     {
         "img": "cover1.png",
-        "title": "Cybernetic Solitude",
-        "desc": "Prompt-driven cyberpunk abstraction, calibrated with Photopea luminance matching and precise cyan telemetry adjustment."
+        "title": "JabberLoop",
+        "desc": "Instrumental jazz fusion visual concept, refined through Photopea with metallic texture balancing and rhythmic compositional refinement."
     },
     {
         "img": "cover2.png",
-        "title": "Neon Nostalgia",
-        "desc": "Retro synthwave aesthetic, engineered with layer-masked asset configuration and custom typography layouts."
+        "title": "Midnight Whispers of British Grandeur x Melancholy",
+        "desc": "British melancholic portrait aesthetics, refined through Photopea with monochrome tonal balancing, cinematic contrast, and subtle atmospheric diffusion."
     },
     {
         "img": "cover3.png",
-        "title": "Minimalist Resonance",
-        "desc": "Geometric concrete form balancing structural gradient depth with open-canvas padding restrictions."
+        "title": "Grandeur in Desolation x Vast Epic [nZk]: Light Through the Grimness",
+        "desc": "Cinematic post-apocalyptic composition, refined through Photopea with atmospheric contrast balancing, floral integration, and tonal depth adjustments."
+    },
+    {
+        "img": "cover4.png",
+        "title": "DX Collection",
+        "desc": "Timeless multi-genre visual identity, refined through Photopea with neutral color grading and structural balance."
+    },
+    {
+        "img": "cover5.png",
+        "title": "BGM Laid-Back",
+        "desc": "Minimal ambient artwork, refined through Photopea with soft tonal balancing and subtle atmospheric enhancement."
+    },
+    {
+        "img": "cover6.png",
+        "title": "DX DNA: Core Essential",
+        "desc": "Abstract identity system inspired by structured DNA geometry, refined through Photopea with depth enhancement, tonal balancing, and visual hierarchy adjustments."
+    },
+    {
+        "img": "cover7.png",
+        "title": "Submerged in an Gilded Mirage: Vintage Mellow J-Urban",
+        "desc": "Retro city-pop atmosphere, refined through Photopea with warm neon balancing, soft bloom control, and cinematic color grading."
+    },
+    {
+        "img": "cover8.png",
+        "title": "Synthwave",
+        "desc": "Minimal retro-futuristic aesthetics, refined through Photopea with restrained neon calibration and cinematic luminance balancing."
+    },
+    {
+        "img": "cover9.png",
+        "title": "Soft EDM",
+        "desc": "Ambient electronic visual language, refined through Photopea with smooth gradient transitions and controlled luminance refinement."
+    },
+    {
+        "img": "cover10.png",
+        "title": "Pop",
+        "desc": "Modern Western pop aesthetics, refined through Photopea with balanced color grading and commercial-style visual cleanup."
+    },
+    {
+        "img": "cover11.png",
+        "title": "CantoPop Featured",
+        "desc": "Contemporary Cantopop aesthetics, refined through Photopea with urban color grading, balanced lighting, and compositional cleanup."
+    },
+    {
+        "img": "cover12.png",
+        "title": "Oriental Collection",
+        "desc": "Cross-cultural East Asian visual identity, refined through Photopea with harmonious color balancing and compositional consistency."
+    },
+    {
+        "img": "cover13.png",
+        "title": "J-Pop Golden Era",
+        "desc": "Golden-era Japanese pop aesthetics, refined through Photopea with vintage tonal balancing and cinematic softness adjustments."
+    },
+    {
+        "img": "cover14.png",
+        "title": "J-Pop",
+        "desc": "Contemporary Japanese pop artwork, refined through Photopea with soft color harmonization and atmospheric refinement."
+    },
+    {
+        "img": "cover15.png",
+        "title": "K-Pop",
+        "desc": "Modern K-Pop visual direction, refined through Photopea with contrast optimization and polished tonal balancing."
+    },
+    {
+        "img": "cover16.png",
+        "title": "MandoPop Classic",
+        "desc": "Classic Mandopop visual identity, refined through Photopea with nostalgic film grading and restrained texture enhancement."
+    },
+    {
+        "img": "cover17.png",
+        "title": "MandoPop Collection",
+        "desc": "Contemporary Mandopop artwork, refined through Photopea with warm tonal grading, texture refinement, and balanced composition."
+    },
+    {
+        "img": "cover18.png",
+        "title": "London Fog x Manchester Rain",
+        "desc": "Fog-laden British urban atmosphere, refined through Photopea with restrained desaturation, soft diffusion, and reflective luminance adjustments."
+    },
+    {
+        "img": "cover19.png",
+        "title": "Billboard 2012",
+        "desc": "Commercial pop artwork inspired by the early 2010s, refined through Photopea with vibrant tonal balancing and polished visual consistency."
     }
 ]
