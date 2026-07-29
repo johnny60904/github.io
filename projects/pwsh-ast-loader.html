@@ -10,32 +10,41 @@
 <body>
     <header class="hero">
         <h1 class="project">PowerShell AST Class Loader</h1>
-        <p class="subtitle">Automated Topological Class Resolution & Static Dependency Analyzer</p>
-        <p class="description">A high-performance system utility driven by Abstract Syntax Tree (AST) parsing via primitive engine APIs, engineered to automate topological class resolution, dependency tracking, and dynamic loading sequence compilation for complex script ecosystems.</p>
+        <p class="subtitle">AST-Based Dependency Analysis & Class Loading Automation</p>
+        <p class="description">A PowerShell AST-based developer tool that analyzes class dependencies, identifies relationships between scripts, and helps determine a reliable loading order for modular PowerShell projects.</p>
     </header>
 
     <main class="hero-container">
         <div class="arch-container">
             <h2 class="architecture">Architectural Highlights</h2>
             <ul>
-                <li><strong>AST-Level Engine Reflection:</strong> Directly interfaces with <code>System.Management.Automation.Language.Parser</code> to extract syntactic tokens without evaluating unverified runtime paths [INDEX].</li>
-                <li><strong>Topological Sorting Algorithm:</strong> Automatically compiles and resolves complex, non-linear class dependency matrices into a deterministic, crash-free chronological script execution sequence.</li>
-                <li><strong>Dynamic Dependency Inversion:</strong> Eliminates primitive hard-coded <code>using module</code> friction by programmatically evaluating cross-file dependencies and orchestrating clean boundary injection.</li>
+                <li><strong>AST-Based Script Analysis:</strong>
+                    Uses PowerShell Abstract Syntax Tree (AST) parsing through System.Management.Automation.Language.Parser to inspect script structure without executing source code.</li>
+                <li><strong>Dependency Resolution:</strong>
+                    Applies topological sorting concepts to analyze class dependencies and generate a predictable loading sequence.</li>
+                <li><strong>Automated Dependency Discovery:</strong>
+                    Reduces manual module ordering requirements by analyzing relationships between PowerShell class files and determining required load order.</li>
             </ul>
         </div>
 
         <div class="feat-container">
             <h2 class="features">Technical Capabilities</h2>
             <ul>
-                <li><strong>Static Schema Analysis:</strong> Scans target directories at the syntax tree layer to instantly index class declarations, inherited interfaces, and cross-module couplings before memory instantiation.</li>
-                <li><strong>Circular Dependency Detection:</strong> Automatically flags and halts execution upon encountering systemic circular dependencies, outputting forensic-grade tracing diagnostics.</li>
-                <li><strong>Frameworkless Automated Bootstrap:</strong> Serves as a localized CI/CD bootstrap prototype, enabling corporate deployment pipelines to dynamically discover and verify shell infrastructure scripts.</li>
+                <li><strong>Static Structure Indexing:</strong>
+                    Scans PowerShell source files to identify class declarations, inheritance relationships, and dependencies before execution.</li>
+                <li><strong>Circular Dependency Detection:</strong>
+                    Identifies dependency cycles and provides diagnostic information to help troubleshoot complex script relationships.</li>
+                <li><strong>Modular Script Workflow Experiment:</strong>
+                    Explores automated script discovery and loading approaches for improving maintainability in larger PowerShell projects.</li>
             </ul>
         </div>
 
         <div class="git-container">
             <h2 class="github">GitHub & Integration</h2>
-            <p>This automated static analysis utility serves as the underlying build engine for large-scale enterprise scripting environments, minimizing human integration friction.</p>
+            <p>This project demonstrates how static analysis techniques can be applied to improve organization, maintainability, and automation within PowerShell-based development workflows.</p>
+            <!--<a >The repository will be published after the project is cleaned up and documented.</a>-->
+            <a style="text-decoration: none; cursor: default;">The repository coming soon</a>
+            <br>
             <a href="../projects.html">← Back to Projects</a>
         </div>
     </main>
