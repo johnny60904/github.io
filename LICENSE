@@ -5,23 +5,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice (including the next paragraph) shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-================================================================================
-ADDENDUM: MULTI-LICENSE DEMARCATION STATEMENT
-================================================================================
-Please note that this repository operates under a dual-licensing scheme to rigidly 
-protect separate asset classes:
-
-1. CODEBASE ACCENTS: All source code components, HTML5 markup, CSS3 stylesheets, 
-   and JavaScript modules are fully licensed under the terms of the MIT License 
-   stipulated above.
-
-2. VISUAL DIGITAL ASSETS: All AI-assisted visual artworks and post-processed 
-   imagery contained within the 'images/projects/' directory are strictly excluded 
-   from the MIT License. These high-fidelity creative assets are explicitly protected 
-   under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International 
-   (CC BY-NC-ND 4.0) License. 
-
-For quick reference, see the official legal deed: 
-https://creativecommons.org
