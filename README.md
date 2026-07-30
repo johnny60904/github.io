@@ -12,7 +12,7 @@ The website focuses on clarity, accessibility, and maintainability rather than f
 
 The live portfolio is available at:
 
-**https://johnny60904.github.io/github.io**
+**https://johnny60904.github.io/landx-portfolio/**
 
 ---
 
