@@ -62,20 +62,6 @@ A Java 21 architectural experiment demonstrating:
 
 ---
 
-## PowerShell Core Cmdlet Get-Files
-
-A cross-platform automation cmdlet designed for reliable large-scale file discovery.
-
-Highlights include:
-
-- Defensive path validation
-- Cross-platform filesystem support
-- BFS / DFS traversal
-- Memory-conscious streaming
-- Automation-oriented workflow design
-
----
-
 ## Additional Research Projects
 
 - PowerShell Core AST Static Dependency Analysis
