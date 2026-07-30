@@ -49,7 +49,7 @@ const renderGallery = async () => {
             card.className = "art-card";
             
             const imgElement = document.createElement("img");
-            imgElement.src = `../images/projects/${item.img}`;
+            imgElement.src = `../images/projects/spotify/${item.img}`;
             imgElement.alt = item.title;
             
             const titleElement = document.createElement("h3");
