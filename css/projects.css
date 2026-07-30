@@ -66,11 +66,11 @@ body {
     color: var(--text-color);
 }
 
-.arch-container, .feat-container {
+.arch-container, .snapshot-container, .feat-container {
     margin-top: 40px;
 }
 
-.architecture, .features, .github {
+.architecture, .code-snapshot, .features, .github {
     color: var(--card-title-color);
     font-size: 1.6rem;
     border-bottom: 1px solid var(--border-color);

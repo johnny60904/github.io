@@ -6,6 +6,26 @@
     <title>Java Legacy Platform ACL | Projects | LanDX</title>
     <link rel="stylesheet" href="../css/projects.css">
     <link rel="icon" href="../assets/icons/terminal.png" type="image/png">
+    <style>
+        .hero-container .snapshot {
+            max-width: 352;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1.625 / 1;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px;
+        }
+        .hero-container .hieghlights {
+            max-width: 352;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <header class="hero">
@@ -13,10 +33,26 @@
         <p class="subtitle">Anti-Corruption Layer & Legacy Boundary Design</p>
         <p class="description">A Java 21 Anti-Corruption Layer (ACL) research project designed to explore how legacy system dependencies can be isolated through explicit boundaries, domain modeling, and modular architecture without relying on external frameworks.</p>
     </header>
-
+    
+    <!--
+    --------------------------------
+    
+    Architecture Overview
+    [ Azure Architecture Image ]
+    
+    --------------------------------
+    
+    Code Snapshot
+    [ Carbon Code Image ]
+    
+    --------------------------------
+    -->
+    
     <main class="hero-container">
+        
         <div class="arch-container">
             <h2 class="architecture">Architectural Highlights</h2>
+            <img class="highlights" src="../assets/imgs/JavaAclArchitectureHighlights.png" alt="Java ACL Architecture Highlights" width="352" height="198"/>
             <ul>
                 <li><strong>Hybrid Architecture Approach:</strong>
                     Combines Vertical Slice Architecture, Domain-Driven Design (DDD), and Clean Architecture concepts to organize responsibilities and maintain clear boundaries between system concerns.</li>
@@ -27,6 +63,12 @@
                 <li><strong>Type-Safe Domain Modeling:</strong>
                     Uses explicit types and adapters to reduce ambiguity in time-related operations and improve compile-time safety.</li>
             </ul>
+        </div>
+        
+        <div class="snapshot-container">
+            <h2 class="code-snapshot">Snapshot</h2>
+            <p class="description">Boundary Defense: Validating external third-party blackbox type / field dependency.</p>
+            <img class=".snapshot" src="../assets/imgs/FluentValidation.png" alt="Java ACL Architecture Highlights" width="352" height="198"/>
         </div>
         
         <div class="feat-container">
